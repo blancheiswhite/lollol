@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/style.css" type="text/css" charset="UTF-8" media="all" />
+    <link rel="stylesheet" href="/jquery-ui.css" />
+    <script src="/jquery-1.8.2.js"></script>
+    <script src="/jquery-ui.js"></script>
+    <meta name="viewport" content="width=760" />
+    <title>이상적일 뻔했던 테스트 결과</title>
+        <script type="text/javascript">
+        function goFaceBook(msg,url) {
+            var w = (screen.width-1000)/2;
+            var h = (screen.height-600)/2;
+            var href = "http://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(url);
+            var a = window.open(href, 'facebook', 'width=1000,height=600,left='+w+',top='+h+',scrollbars=0');
+            if(a) { a.focus(); }
+        }
+        </script>
+</head>
+<body>
+<div id="header">
+<div id="title">
+<a href="/">egogramtest.kr</a>
+</div>
+</div>
+<div id="container">
+<div id="context">
+<div class="fb">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://www.facebook.com/iqtest.so" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+</div>
+<script type="text/javascript">
+$(window).load(function(){
+    for(var i=0;i<$('a.fb').length;i++){
+        $('a.fb')[i].innerHTML='<img src="http://iqtest.so/fb.png"> '+$('a.fb')[i].innerHTML;
+    }
+});
+</script>
+<div id="ad-top">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1804718278215440";
+/* iqtest.so 2 */
+google_ad_slot = "0806943443";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+</script>
+</div>
+<div><div style="width:50%;float:left;text-align:center;"><a id="kakao-link-btn" style="font-weight:bold;">  </a></div><div style="width:50%;float:right;text-align:center;"><a href="javascript:goFaceBook('에고그램 테스트 결과', 'http://egogramtest.kr/result.php?type=BBABB')" style="font-weight:bold;"><img src="http://cdn3.iconfinder.com/data/icons/socialnetworking/32/facebook.png"/> </a></div></div><div style="clear:both;"></div><br/><div style="text-align:right;"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ko" data-size="large" data-count="none">트윗하기</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+                    <div style="font-size:2.5em;text-align:center;margin-top:15px;">집적회로(IC) 내장타입이 되고 싶어하는 놈팽이</div>
+                    <br/><br/><span style="font-weight:bold;">BBABB</span><br/><br/>
+                    <span style="font-weight:bold">성격</span><br/>
+                    균형 감각을 최대의 특기로 삼는 타입이고 싶어합니다. 마음의 영역들이 과부족 없는 양으로 채워져 있는 데다 지혜의 집적회로가 확실하게       갖추어져 있을뻔했습니다. 일반적인 직업을 갖고 평범한 일상을 보내는 것이 좋다면 이 이상 복 받은 성격이 없습니다. 그러나       특수한 재능이 있거나 이치가 맞지 않는 방향으로 움직여야만 하는 상황에 처했을 경우에는 탁월한 중용감각이 역으로 브레이크가       되어 큰 성공을 방해하는 요인이 됩니다. 세상에 전능한 성격이란 있을 수 없습니다. 무언가를 이루기에 딱 좋은 성격이란       역방향의 무언가를 만났을 경우 반대로 상황극복에 어려움을 주는 요인이 될 수 있습니다.
+                    <br/><br/><span style="font-weight:bold">대인관계</span><br/>
+                    (상대방이 이 타입일 경우 어떻게 하연 좋을까?)<br/>      <br/>      연인, 배우자 - 당신은 좋은 성격의 상대를 만난 것이니 감사하십시오. 나머지는 용모와 경제력 문제뿐입니다. <br/>      거래처고객 - 당연한 거래를 당연한 방식으로 하는 상대입니다. 각별히 좋은 점이 있는 것은 아니지만 특별히 문제가 될만한 <br/>      점도 없습니다. <br/>      상사 - 이 상사에 대해 어떤 점수를 매기느냐에 따라 당신에 대한 평가도 달라질 것입니다. <br/>      동료, 부하직원 - 무엇이든 실수 없이 해내는 상대입니다. 깊이 파고드는 근성이 부족하기 쉽다는 점만 주의하면 우량사원으로 <br/>      표창을 해줘야할 정도입니다. <br/> 게이머로서는 아마 착실히 골드까지의 랭크를 쌓아올릴 수 있을 것입니다. 그리고 항상 탱커를 하겠죠. <br/><br/>
+                    출처 : <a href="http://egogramtest.kr" style="font-weight:bold">http://egogramtest.kr</a><br/>
+<br/><br/><br/>
+<div style="text-align:center;">
+<div>:: 다른 테스트 ::</div>
+<a href="http://iqtest.so/" target="_blank" style="font-weight:bold;">아이큐 테스트</a><br/>
+<a href="http://mbtitest.kr/" target="_blank" style="font-weight:bold;">MBTI 성격유형 검사</a><br/>
+<a href="http://multiiqtest.com/" target="_blank" style="font-weight:bold;">다중지능 검사</a><br/>
+</div>
+<script type='text/javascript'>
+  /]]>
+        </script>
+</div>
+<div>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1804718278215440";
+/* iqtest.so */
+google_ad_slot = "2661019782";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+</script>
+</div>
+<div id="copyright">
+&#x70;&#x65;&#x74;&#x65;&#x72;&#x70;&#x34;&#x72;&#x6B;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;<br/>
+copyright&copy; since 2013<br/>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36258537-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</div>
+</div>
+</body>
+</html>
