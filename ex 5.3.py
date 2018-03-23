@@ -73,3 +73,12 @@ def fact(n):
 fact(-1)
 fact(3)
 
+
+
+
+
+def fact(n):
+    return factorial(n)
+
+fact(3)
+
